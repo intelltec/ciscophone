@@ -15,7 +15,7 @@ show_menu() {
         printf "\033[1;0musage: \033[1;32m$me \033[1;37mmodel extension password MAC asterisk_IP\033[m\n"
         printf "\033[1;37mmodel\033[1;0m - now supporting only \033[1;32mCP-8841\033[1;0m or \033[1;32mCP-7821\033[1;0m.\033[m\n"
         printf "\033[1;37mextension\033[1;0m - can be \033[1;32m3\033[1;0m or \033[1;32m4\033[1;0m digits.\033[m\n"
-	printf "\033[1;370mMAC\033[1;0m must contains colons ->\033[1;32m :\033[m\n"
+	printf "\033[1;370mMAC\033[1;0m must be with colons ->\033[1;32m :\033[m\n"
         printf "\033[1;0mTo run, the script must have \033[1;37mFIVE\033[1;0m arguments!\033[m\n"
 }
 valid_ipv4() {
