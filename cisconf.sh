@@ -28,7 +28,6 @@ valid_ipv4() {
 #    echo 'IP address is valid'
 }
 ##################### main #################################
-check_root
 case $# in
 	1)
 		case $1 in 
@@ -76,6 +75,7 @@ case $# in
 		;;
 esac
 
+check_root
 if [[ $2 =~ ^[0-9]+$ ]]; then
 	digs='^[[:digit:]]{3,4}$'
 	if [[ "$2" =~ $digs ]]; then
